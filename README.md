@@ -1,2 +1,2 @@
 # odin-recipes
-Recipes HTML project for theodinproject
+Recipes HTML project for theodinproject curriculum.
