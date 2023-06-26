@@ -11,14 +11,40 @@ body {
 
 .heading {
     color: rgb(179, 126, 48);
+    font-size: 40px;
 }
 
 .heading.small {
     color: rgb(194, 148, 70);
+    font-size: 25px;
 }
 
-.recipe {
-    color: lightskyblue;
-    background-color: blue;
-    font-family: fantasy;
+
+img {    
+    height: 512px;
+    width: 512px;
+    display: block;
+    margin-left: 55px;
+    margin-right: auto;
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);   
+}
+
+/* The small box underneath the recipe images */
+div.box {
+    height: 45px;
+    width: 512px;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    padding-top: 15px;
+    background-color: white;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Recipe textbox */
+#container {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
